@@ -1,0 +1,53 @@
+
+        Body{
+            background-color: #CCD9EF;
+            position: relative;
+        }
+        
+        ul li{
+            float: left;
+            text-align: right;
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            text-align: center;
+            border: 1px solid black;
+            margin: 100px;
+            padding: 30px;
+            background-color: whitesmoke;
+            border-radius: 20px;
+            box-shadow: 5px 5px 6px black;
+            position: relative;
+            display: flexbox;
+            
+            
+        }
+        #form1{
+            text-align: center;
+            margin: 10px;
+            padding: 5px;
+            float: left;
+
+        }
+        #form2{
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+            padding: 5px;
+        }
+        button{
+            list-style: none;
+            size: 40px;
+            border: 1px solid black;
+            box-sizing: 30px;
+            box-shadow: 2px 2px 3px black;
+            border-radius: 5px;
+            font-size: bold;
+        }
+      
+        footer{
+            text-align: center;
+            margin: 50px;
+        }

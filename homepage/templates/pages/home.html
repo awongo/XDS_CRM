@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'pages/bootstrap.css' %} " rel="stylesheet">
+    <link href="{% static 'pages/bootstrap.min.css' %} " rel="stylesheet">
+    <link href="{% static 'pages/main.css' %} " rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+
+
+    <title>Home</title>
+</head>
+<body class="container-fluid">
+    <header class="container">
+
+    </header>
+    <main class="container">    
+       <div class="px-4 py-5 my-5 text-center">
+         <img class="d-block mx-auto mb-4" src="" alt="" width="72" height="57">
+         <h1 class="display-5 fw-bold">XDS CRM</h1>
+         <div class="col-lg-6 mx-auto">
+           <p class="lead mb-4">The world's best web-based CRM tool to manage your clients and organize meetings.</p>
+           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+             <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href=" #">Admin Login</a></button>
+             <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="#">Client Login</a></button>
+           </div>
+         </div>
+       </div>
+    </main>
+    <footer></footer>
+    <script src="{% static 'pages/bootstrap.js' %} "></script>
+    <script src="{% static 'pages/bootstrap.bundle.js' %} "></script>
+    <script src="{% static 'pages/bootstrap.bundle.min.js' %} "></script>
+</body>
+</html>
