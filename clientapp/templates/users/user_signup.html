@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{% static 'pages/bootstrap.css' %} " rel="stylesheet">
-    <link href="{% static 'pages/bootstrap.min.css' %} " rel="stylesheet">
-    <link href="{% static 'pages/main.css' %} " rel="stylesheet">
-    <title>Admin Sign up</title>
+    <link href="{% static 'users/bootstrap.css' %} " rel="stylesheet">
+    <link href="{% static 'users/bootstrap.min.css' %} " rel="stylesheet">
+    <link href="{% static 'users/main.css' %} " rel="stylesheet">
+    <title>sign up</title>
 </head>
 <body>
    <header></header> 
@@ -16,8 +16,8 @@
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
         <div class="row align-items-center g-lg-5 py-5">
           <div class="col-lg-7 text-center text-lg-start">
-            <h1 class="display-4 fw-bold lh-1 mb-3">Regiter as Admin</h1>
-            <p class="col-lg-10 fs-4">Sign up to your dashboard and manage your clients.</p>
+            <h1 class="display-4 fw-bold lh-1 mb-3">Regiter as Client</h1>
+            <p class="col-lg-10 fs-4">Sign up to your dashboard and check your activities.</p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
             <form class="p-4 p-md-5 border rounded-3 bg-light">
@@ -30,8 +30,8 @@
                 <label for="floatingInput">Company Email</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="create code">
-                <label for="floatingInput">Create registeration code</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Input code">
+                <label for="floatingInput">Input Client Code</label>
               </div>
               <div class="form-floating mb-3">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
@@ -55,8 +55,8 @@
       </div>
    </main>
    <footer></footer>
-   <script src="{% static 'pages/bootstrap.js' %} "></script>
-   <script src="{% static 'pages/bootstrap.bundle.js' %} "></script>
-   <script src="{% static 'pages/bootstrap.bundle.min.js' %} "></script>
+   <script src="{% static 'users/bootstrap.js' %} "></script>
+   <script src="{% static 'users/bootstrap.bundle.js' %} "></script>
+   <script src="{% static 'users/bootstrap.bundle.min.js' %} "></script>
 </body>
 </html>
